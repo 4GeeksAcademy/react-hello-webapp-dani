@@ -28,7 +28,7 @@ export const router = createBrowserRouter(
         <Route path="/single/:theId" element={ <Single />} />  {/* Dynamic route for single items */}
         <Route path="/demo" element={<Demo />} />
         <Route path="/addcontact" element={<AddContact />} />
-        <Route path="/updatecontact" element={<UpdateContact />} />
+        <Route path="/updatecontact/:id" element={<UpdateContact />} />
       </Route>
     )
 );
